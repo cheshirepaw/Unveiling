@@ -3,3 +3,5 @@ Tweego Basic Setup
 
 :: Start
 @@#hello;Hello World!@@
+
+<<say 'Some Guy'>>You n'wah!<</say>>
