@@ -1,7 +1,14 @@
 :: StoryTitle
 Tweego Basic Setup
 
+:: StoryInit
+<<character 'vix' 'images/portraits/vix.png'>>
+
 :: Start
 @@#hello;Hello World!@@
 
-<<say 'Some Guy'>>You n'wah!<</say>>
+<<vix>>Hey there, kiddo<</vix>>
+[[Embrace|PrologueColdDarkSilence]]
+
+:: PrologueColdDarkSilence {"position":"150,0"}
+Test
